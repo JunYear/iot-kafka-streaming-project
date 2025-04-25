@@ -15,9 +15,9 @@
 
 -   **가상의 IoT 센서 데이터 생성** 및 스트리밍 환경 구축
 -   **Kafka Producer/Consumer** 구조 이해 및 구현
--   **InfluxDB(PostgreSQL 대체 가능)**를 통한 데이터 저장
+-   **InfluxDB(PostgreSQL 대체 가능)** 를 통한 데이터 저장
 -   **Grafana**를 통한 실시간 데이터 시각화 대시보드 구축
--   **Airflow(선택)**를 통한 데이터 흐름 관리 및 모니터링
+-   **Airflow(선택)** 를 통한 데이터 흐름 관리 및 모니터링
 
 ------
 
