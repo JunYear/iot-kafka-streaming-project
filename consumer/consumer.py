@@ -1,16 +1,8 @@
-import os
 import json
 from kafka import KafkaConsumer
-from dotenv import load_dotenv
 from db_writer import write_sensor_data_to_influxdb
 from common.anomaly_detector import detect_anomalies
-
-# .env 파일을 읽어와 환경 변수 설정
-load_dotenv()
-
-# Kafka 서버 정보와 토픽 이름을 환경 변수에서 불러오기
-KAFKA_BOOTSTRAP_SERVERS = os.getenv("KAFKA_BOOTSTRAP_SERVERS", "localhost:9092")
-KAFKA_TOPIC = os.getenv("KAFKA_TOPIC", "sensor_data")
+from consumer.config import KAFKA_TOPIC, KAFKA_BOOTSTRAP_SERVERS
 
 # KafkaConsumer 인스턴스 생성
 consumer = KafkaConsumer(
