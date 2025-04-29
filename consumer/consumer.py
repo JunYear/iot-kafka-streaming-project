@@ -1,8 +1,9 @@
 import json
 from kafka import KafkaConsumer
+from config import KAFKA_BOOTSTRAP_SERVERS, KAFKA_TOPIC
 from db_writer import write_sensor_data_to_influxdb
 from common.anomaly_detector import detect_anomalies
-from consumer.config import KAFKA_TOPIC, KAFKA_BOOTSTRAP_SERVERS
+
 
 # KafkaConsumer 인스턴스 생성
 consumer = KafkaConsumer(
