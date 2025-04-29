@@ -1,0 +1,25 @@
+# Python 관련
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual Environment
+.venv/
+env/
+
+# IDE 설정 파일 (PyCharm, VSCode 등)
+.vscode/
+.idea/
+
+# 환경 변수 파일
+.env
+
+# Docker 관련
+influxdb-storage/
+*.db
+
+# OS 별로 생기는 파일
+.DS_Store
+Thumbs.db
