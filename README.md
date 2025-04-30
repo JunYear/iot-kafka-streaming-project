@@ -147,5 +147,5 @@ docker-compose up -d --build
 ## 🧑‍💻 개발자
 
 -   **이름**: jun Jeong
--   **이메일**: yyt1186@example.com
+-   **이메일**: yyt1186@gmail.com
 -   **기술블로그**: https://dysad.tistory.com
